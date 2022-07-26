@@ -10,7 +10,7 @@
 <html lang="es">
 
 <head>
-  <base href="../public/static_admin/">
+ 
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
@@ -19,10 +19,9 @@
 
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx" crossorigin="anonymous">
-
   <!-- Main styles for this application-->
-  <link href="css/style.css" rel="stylesheet">
-  <link href="vendors/@coreui/chartjs/css/coreui-chartjs.css" rel="stylesheet">
+  <link href="../public/static_admin/css/style.css" rel="stylesheet">
+  <link href="../public/static_admin/vendors/@coreui/chartjs/css/coreui-chartjs.css" rel="stylesheet">
 
   <!-- datatables -->
   <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/v/bs5/jq-3.6.0/dt-1.12.1/datatables.min.css"/>
@@ -34,23 +33,22 @@
   <!--section sidebar -->
   <section class="sidebar  sidebar-fixed" id="sidebar">
     <div class="sidebar-brand d-none d-md-flex">
-      <span class="sidebar-brand-full">Logo</span>
+      <span class="sidebar-brand-full"><img src="../public/images/logo_sin_fondo.png" alt="Milenium Plaza"  width="146" height="56"></span>
       <span class="sidebar-brand-narrow" width="46" height="46" alt="CoreUI Logo">Logo</span>
     </div>
     <ul class="sidebar-nav " data-coreui="navigation" data-simplebar="">
 
       <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">Sistema</a>
         <ul class="nav-group-items">
-          <li class="nav-item"><a class="nav-link" href="colors.html"><span class="nav-icon"> </span>Usuarios </a></li>
-
+          <li class="nav-item"><a class="nav-link" href="usuarios_admin.html"><span class="nav-icon"> </span>Usuarios </a></li>
         </ul>
       </li>
 
       <li class="nav-group"><a class="nav-link nav-group-toggle" href="#">Hotel</a>
         <ul class="nav-group-items">
-          <li class="nav-item"><a class="nav-link" href="colors.html"><span class="nav-icon"> </span>Habitaciones</a>
+          <li class="nav-item"><a class="nav-link" href="habitaciones_admin.html"><span class="nav-icon"> </span>Habitaciones</a>
           </li>
-          <li class="nav-item"><a class="nav-link" href="colors.html"><span class="nav-icon"> </span>Reservas</a></li>
+          <li class="nav-item"><a class="nav-link" href="reservas_admin.html"><span class="nav-icon"> </span>Reservas</a></li>
         </ul>
       </li>
 
@@ -198,18 +196,15 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
         crossorigin="anonymous"></script>
-
   <!-- CoreUI and necessary plugins-->
-  <script src="vendors/@coreui/coreui/js/coreui.bundle.min.js"></script>
-  <script src="vendors/simplebar/js/simplebar.min.js"></script>
+  <script src="../public/static_admin/vendors/@coreui/coreui/js/coreui.bundle.min.js"></script>
+  <script src="../public/static_admin/vendors/simplebar/js/simplebar.min.js"></script>
   <!-- Plugins and scripts required by this view-->
-  <script src="vendors/chart.js/js/chart.min.js"></script>
-  <script src="vendors/@coreui/chartjs/js/coreui-chartjs.js"></script>
-  <script src="vendors/@coreui/utils/js/coreui-utils.js"></script>
-  <script src="js/main.js"></script>
+  <script src="../public/static_admin/vendors/chart.js/js/chart.min.js"></script>
+  <script src="../public/static_admin/vendors/@coreui/chartjs/js/coreui-chartjs.js"></script>
+  <script src="../public/static_admin/vendors/@coreui/utils/js/coreui-utils.js"></script>
+  <script src="../public/static_admin/js/main.js"></script>
   <script src="/public/js/hotel.js"></script>
-  <script>
-  </script>
 
 </body>
 
