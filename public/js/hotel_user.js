@@ -1,8 +1,4 @@
-$(document).ready(function () {
-    $('#example').DataTable();
- });
-
- $(document).ready(function(){ irArriba(); }); //Hacia arriba
+$(document).ready(function(){ irArriba(); }); //Hacia arriba
 
  function irArriba(){
    $('.ir-arriba').click(function(){ $('body,html').animate({ scrollTop:'0px' },1000); });
